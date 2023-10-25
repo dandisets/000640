@@ -6,9 +6,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 18708666000
+  numberOfFiles: 247
+  numberOfSubjects: 19
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Koloski, Miranda  (2023) 32-CH Local Field Potential Data During Probabilistic
   Reversal Learning Task (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
@@ -20,7 +32,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-09-22T00:16:23.478717+00:00'
-datePublished: '2023-09-22T00:16:41.387621+00:00'
+datePublished: '2023-10-25T07:39:28.735955+00:00'
 description: Male Long Evans Rats 7-12 months of age. 24 total animals. 256 sessions.  13
   animals received a frontal traumatic brain injury (controlled cortical impact).
   11 animals received Sham (no craniotomy no TBI) conditions. One week later, rats
@@ -43,13 +55,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000640/versions/draft/assets/
 name: 32-CH Local Field Potential Data During Probabilistic Reversal Learning Task
 publishedBy:
-  endDate: '2023-09-22T00:16:41.387621+00:00'
-  id: urn:uuid:7e1289a2-dd48-4c5f-bd6c-5dfc120f38c2
+  endDate: '2023-10-25T07:39:28.735955+00:00'
+  id: urn:uuid:8b37e074-dfe9-46e1-9ca7-86cd566fb2cd
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-09-22T00:16:41.387621+00:00'
+  startDate: '2023-10-25T07:39:28.735955+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:50e8ca2c-95bb-44b4-83cf-7c5ccefdd47d
+  - id: urn:uuid:b5d9f6fc-1244-4c96-bcdc-f4645a3505c3
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
